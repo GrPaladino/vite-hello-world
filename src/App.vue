@@ -1,5 +1,6 @@
 <script>
 import Title from "./components/Apptitle.vue";
+import Jumbo from "./components/Jumbo.vue";
 
 export default {
   data() {
@@ -7,12 +8,14 @@ export default {
   },
   components: {
     Title,
+    Jumbo,
   },
 };
 </script>
 
 <template>
   <Title></Title>
+  <Jumbo />
 </template>
 
 <style>

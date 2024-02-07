@@ -12,4 +12,10 @@ export default {
   <h1>{{ title }}</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}
+</style>
