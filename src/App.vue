@@ -1,6 +1,6 @@
 <script>
 import Title from "./components/Apptitle.vue";
-import Jumbo from "./components/Jumbo.vue";
+import Jumbo from "./components/AppHero.vue";
 
 export default {
   data() {
