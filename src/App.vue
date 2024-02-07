@@ -1,21 +1,21 @@
 <script>
-import Title from "./components/Apptitle.vue";
-import Jumbo from "./components/AppHero.vue";
+import JumboHero from "./components/AppHero.vue";
+import PageTitle from "./components/AppTitle.vue";
 
 export default {
   data() {
     return {};
   },
   components: {
-    Title,
-    Jumbo,
+    PageTitle,
+    JumboHero,
   },
 };
 </script>
 
 <template>
-  <Title></Title>
-  <Jumbo />
+  <PageTitle></PageTitle>
+  <JumboHero />
 </template>
 
 <style>
